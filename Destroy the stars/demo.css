@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    text-align: center;
+    background-image: url('./img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 0;
+    top: 0;
+}
+.wrapper .muBiao, .dangQian, .xuanZe{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+}
+/* .wrapper .muBiao{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}*/
+.wrapper .dangQian{
+ 
+    font-size: 18px;
+    color: #ccc
+
+} 
+.wrapper .xuanZe{
+    font-size: 18px;
+    opacity: 0;
+}
